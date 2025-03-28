@@ -3,15 +3,15 @@
     "title": "Schede Ridimensionabili",
     "description": "Permette di ridimensionare le schede trascinando gli angoli e automaticamente con il titolo.",
     "version": "1.0.0",
-    "author": "IlTuoNome",
+    "author": "Soul78",
     "scripts": [
         "resizable-sheets.js"
     ],
     "compatibility": {
         "minimum": "10",
-        "verified": "11"
+        "verified": "12"
     },
     "url": "https://github.com/Soul7800/resizable-sheets",
     "manifest": "https://raw.githubusercontent.com/Soul7800/resizable-sheets/refs/heads/main/module.json",
-    "download": "https://github.com/Soul7800/resizable-sheets/archive/refs/tags/v1.0.zip"
+    "download": "https://github.com/Soul7800/resizable-sheets/archive/refs/tags/v1.1.zip"
 }
