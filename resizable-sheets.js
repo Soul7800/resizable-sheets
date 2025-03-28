@@ -1,5 +1,5 @@
 Hooks.on("renderApplication", (app, html) => {
-  if (app.element[0].classList.contains("window-app")) {
+  if (app.element && app.element[0] && app.element[0].classList.contains("window-app")) {
     const sheet = app.element[0];
     const handle = document.createElement("div");
     handle.classList.add("resize-handle");
@@ -32,7 +32,6 @@ Hooks.on("renderApplication", (app, html) => {
   }
 });
 
-// Aggiungi un po' di CSS per il manico di ridimensionamento
 const style = document.createElement("style");
 style.textContent = `
   .resize-handle {
