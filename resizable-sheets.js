@@ -1,5 +1,5 @@
 Hooks.on("renderApplication", (app, html) => {
-  if (app.element[0].classList.contains("sheet")) {
+  if (app.element[0].classList.contains("window-app")) {
     const sheet = app.element[0];
     const handle = document.createElement("div");
     handle.classList.add("resize-handle");
@@ -29,14 +29,6 @@ Hooks.on("renderApplication", (app, html) => {
       document.removeEventListener("mousemove", resize);
       document.removeEventListener("mouseup", stopResize);
     }
-
-    // Ridimensionamento automatico con il titolo
-    const title = sheet.querySelector(".window-title");
-    const observer = new MutationObserver(() => {
-      sheet.style.width = "auto";
-      sheet.style.width = sheet.offsetWidth + "px";
-    });
-    observer.observe(title, { childList: true, characterData: true, subtree: true });
   }
 });
 
