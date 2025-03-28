@@ -1,0 +1,17 @@
+{
+    "id": "resizable-sheets",
+    "title": "Schede Ridimensionabili",
+    "description": "Permette di ridimensionare le schede trascinando gli angoli e automaticamente con il titolo.",
+    "version": "1.0.0",
+    "author": "IlTuoNome",
+    "scripts": [
+        "resizable-sheets.js"
+    ],
+    "compatibility": {
+        "minimum": "10",
+        "verified": "11"
+    },
+    "url": "URL_DEL_TUO_MODULO",
+    "manifest": "URL_DEL_TUO_MODULO/module.json",
+    "download": "URL_DI_DOWNLOAD_DEL_TUO_MODULO"
+}
